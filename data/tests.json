@@ -1,0 +1,19 @@
+{
+  "1": [
+    {
+      "question": "test",
+      "answers": { "a": "Bags", "b": "Watches", "c": "Shoes", "d": "Laptops" },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "test",
+      "answers": {"a": "Bags", "b": "Watches", "c": "Shoes", "d": "Laptops"},
+      "correctAnswer": "b"
+    },
+    {
+      "question": "test",
+      "answers": {"a": "Bags", "b": "Watches", "c": "Shoes", "d": "Laptops"},
+      "correctAnswer": "c"
+    }
+  ]
+}
