@@ -20,7 +20,7 @@
           :id="'' + index"
           type="radio"
           class="hidden"
-          :value="index"
+          :value="answer"
           :disabled="selectedAnswer != ''"
           @change="answered($event)"
         >
@@ -80,7 +80,7 @@ const props = defineProps<{
   id: string;
 }>();
 
-const questions: any[] = ref(tests[props.id]);
+const questions = ref(tests[props.id]);
 const idx = ref(0)
 const selectedAnswer = ref("")
 const correctAnswers = ref(0)
@@ -89,7 +89,9 @@ const count = ref(3)
 
 const answered = (e) => {
     selectedAnswer.value = e.target.value
-    if (selectedAnswer.value == questions[idx.value].correctAnswer) {
+    console.log(selectedAnswer.value);
+    
+    if (selectedAnswer.value == questions.value[idx.value].correctAnswer) {
         correctAnswers.value = correctAnswers.value + 1
     } else {
         wrongAnswers.value = wrongAnswers.value + 1

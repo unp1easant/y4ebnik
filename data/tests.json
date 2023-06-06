@@ -2,18 +2,18 @@
   "1": [
     {
       "question": "test",
-      "answers": { "a": "Bags", "b": "Watches", "c": "Shoes", "d": "Laptops" },
-      "correctAnswer": "a"
+      "answers": [ "Bags", "Watches", "Shoes", "Laptops" ],
+      "correctAnswer": "Bags"
     },
     {
       "question": "test",
-      "answers": {"a": "Bags", "b": "Watches", "c": "Shoes", "d": "Laptops"},
-      "correctAnswer": "b"
+      "answers": ["Bags", "Watches", "Shoes", "Laptops"],
+      "correctAnswer": "Watches"
     },
     {
       "question": "test",
-      "answers": {"a": "Bags", "b": "Watches", "c": "Shoes", "d": "Laptops"},
-      "correctAnswer": "c"
+      "answers": ["Bags", "Watches", "Shoes", "Laptops"],
+      "correctAnswer": "Shoes"
     }
   ]
 }
